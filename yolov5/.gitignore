@@ -1,0 +1,77 @@
+yolov5-env/
+__pycache__/
+*.pyc
+*.pt
+*.pth# Virtual Environment
+yolov5-env/
+env/
+venv/
+.env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pyz
+
+# YOLOv5 Runs & Outputs
+runs/
+exp/
+
+# Model Weights (keep best_windows.pt since it's 14MB - within GitHub limit)
+# *.pt  <-- commented out so best_windows.pt gets uploaded
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Dataset & Large Data Files
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Images in cache (not your lane_images)
+*.cache
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / Editor
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+
+# Logs
+*.log
+logs/
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# Compiled Files
+*.exe
+*.dll
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Unwanted file in your project
+unwanted.gitignore.txt
+*.zip
+*.rar
+datasets/
+videos/
